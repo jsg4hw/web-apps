@@ -14,4 +14,4 @@ add a /name of whatever to the end of the URL
 5. - rails generate controller tacos
 6. Go to the views page under controllers. Should be a new folder
 7. Add a new file, named "index.html.erb" - HAS to be that exact name
-8. Type in <h1> Text to display <h1>
+8. Type in <h1> Text to display </h1> for the header <b1> for body
