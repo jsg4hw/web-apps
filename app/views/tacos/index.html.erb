@@ -2,4 +2,23 @@
 
 <b1> More text </b1>
 <!-- Comment formatting -->
+<!-- <% %> is how to embed ruby code in HTML -->
+<% 
+    tacos = ["Carnitas","Al Pastor","Fish"]
+ %>
 
+<p> There are <%= tacos.count %> tacos: </p> <!-- Can't add comments in the <% %>-->
+<p> <%= %>
+
+<ul>
+    <li> Dynamic text: </li>
+    <% for taco in tacos %>
+        <li> <%= taco %> </li>
+    <% end %>
+</ul>
+
+<ul> 
+    <li> Static Text </li>
+    <li> Test 2</li>
+    <li> Last Line </li>
+</ul>
