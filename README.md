@@ -5,7 +5,7 @@
 
 
 Notes:
-1.  rails db:setup : includes db:migrate and other things
+1. (only on start up? Or new workspace) rails db:setup : includes db:migrate and other things
 - In the routes.rb file, type in resources "name of whatever"
 2. - rails server - click open browser in bottom right pop up (click bell icon in bottom right corner if you miss it)
 add a /name of whatever to the end of the URL
