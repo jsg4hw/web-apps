@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   resources "dice"
   resources "cards"
   resources "companies"
+  resources "contacts"
 end
 
 # manifest of the resources that the requests the server is ready to "listen for"/receive
